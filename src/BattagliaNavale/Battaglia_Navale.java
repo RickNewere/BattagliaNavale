@@ -14,7 +14,7 @@ public class Battaglia_Navale {
             for(int j=0; j< DIM; j++)
             {
                 celle[i][j] = new Cella();
-                if(Math.random() < 0.2)
+                if(Math.random() < 0.1)
                 {
                     celle[i][j].setOccupata();
                 }

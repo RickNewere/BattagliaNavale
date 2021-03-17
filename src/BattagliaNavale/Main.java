@@ -20,7 +20,7 @@ public class Main {
             battaglia.toString();
             System.out.println("\nBATTAGLIA NAVALE\n");
 
-            System.out.println("\nHai a disposizione 50 mosse");
+            System.out.println("\nHai a disposizione 20 mosse");
             System.out.println("Se colpisci la nave apparirà il simpbolo 'X' altrimenti '#'\n");
             System.out.println("Hai " + battaglia.numeroNavi() + " navi da abbattere, datti da fare!\n");
             int mosse = 0;
@@ -42,7 +42,7 @@ public class Main {
                 System.out.println(battaglia.toString());
                 System.out.println("Ci sono ancora " + battaglia.numeroNavi() + " navi!");
                 mosse++;
-            } while (mosse < 5);
+            } while (mosse < 20);
             if (battaglia.numeroNavi() == 0)
 
                 System.out.print("\nHai vinto la battaglia, ma non la guerra!\n");
